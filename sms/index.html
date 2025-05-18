@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        	body {
+	background-image: url(sms\images\sms-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh; /* Full screen height */
+	margin: 0; /* Remove default margin */
+    font-size: larger;
+	
+
+            }
+            form{
+                margin-top: 100px;
+            }
+            fieldset{
+                
+                margin-left: 50px;
+                margin-right: 450px;
+                background-color: antiquewhite;
+                border-radius: 50px;
+            }
+            .b1{
+                padding: 10px;
+                background-color: greenyellow;
+                border: none;
+                font-weight: bold;
+                font-size: larger;
+                cursor: pointer;
+                border-radius: 20px;
+            }
+            .b2{
+
+                padding: 10px;
+                background-color: Red;
+                border: none;
+                font-weight: bold;
+                font-size: larger;
+                cursor: pointer;
+                border-radius: 20px;
+            }
+    </style>
+</head>
+<body>
+    <center>
+       <font color="white"><h1 style="font-size: 50px;">Student Management System🧑‍🎓</h1></font> 
+      <form action="submit.html" method="get">
+        <fieldset>
+            <legend style="margin-top: 10px;">Registration Form</legend>
+            <center>
+                <label>First Name:</label>
+                <input type="text" placeholder="Enter First name" required/>
+                <br/>
+                <br/>
+
+                
+                <label>Last Name:</label>
+                <input type="text" placeholder="Enter Last name" required/>
+                <br/>
+                <br/>
+
+                
+                <label>Gender: </label>
+                &nbsp;
+                <input type="radio" />Male
+                <input type="radio"/>Female
+                <br/>
+                <br/>
+
+                <label>DOB: </label>
+                <input type="date"/>
+                <br/>
+                <br/>
+
+                <label>Address:</label>
+                <textarea rows="4" cols="30"></textarea>
+
+                <br/>
+                <br/>
+                <input class="b1" type="submit" value="Submit"/>
+
+                &nbsp; &nbsp;
+                <input class="b2" type="reset" value="Reset"/>
+
+            </center>
+        </fieldset>
+      </form>
+    
+</body>
+</html>
